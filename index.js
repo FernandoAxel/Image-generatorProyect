@@ -49,7 +49,7 @@ app.use('/api', router);
 
 // routes
 app.get('/', (req, res) => {
-  res.send('Hello world from render! Alejandro Herrera, Juanito perez \n🥸');
+  res.send('Hello world from render!');
 });
 
 app.listen(process.env.PORT || 3000, () => {
